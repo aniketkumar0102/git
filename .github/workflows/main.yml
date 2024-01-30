@@ -23,4 +23,4 @@ jobs:
     - name: Deploy to EKS
       run: |
         aws eks --region us-east-1 update-kubeconfig --name eks
-        kubectl apply -f nginx2.yaml  # Replace with your Kubernetes manifest file
+        kubectl apply -f service2.yaml  # Replace with your Kubernetes manifest file
